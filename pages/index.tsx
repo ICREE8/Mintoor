@@ -35,8 +35,7 @@ const Home: NextPage = () => {
         backgroundPosition="center"
       >
         <Stack w="full" h="calc(100vh)" justify="center">
-					{ /* NavBar */ }
-          <div className={styles.walletButtons}>
+					          <div className={styles.walletButtons}>
                     <WalletMultiButtonDynamic />
                     <WalletDisconnectButtonDynamic />
                 </div>
@@ -46,7 +45,7 @@ const Home: NextPage = () => {
           //Dynamic buttons
           
           <Center>
-						{ /* If connected, the second view, otherwise the first */ }
+						
             {connected ? <Connected /> : <Disconnected />}
                 </Center>
           <Spacer />
