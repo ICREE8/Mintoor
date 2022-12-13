@@ -26,9 +26,9 @@ const Connected: FC = () => {
           </Heading>
 
           <Text color="bodyText" fontSize="xl" textAlign="center">
-            Each buildoor is randomly generated and can be staked to receive
+            Each architectoor is randomly generated and can be staked to receive
             <Text as="b"> $BLD</Text> Use your <Text as="b"> $BLD</Text> to
-            upgrade your buildoor and receive perks within the community!
+            upgrade your architectoor and receive perks within the community!
           </Text>
         </VStack>
       </Container>
